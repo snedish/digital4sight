@@ -1,0 +1,117 @@
+body {
+  background-image: url('images/bg.jpg'); /* or use a full URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: keeps image fixed while scrolling */
+}
+
+header {
+  background: #111ac4;
+  color: rgb(85, 167, 203);
+  text-align: center;
+  padding: 2rem;
+}
+.logo-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.logo-container h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #2445c9;
+}
+
+.logo-container .tagline {
+  font-size: 1.2rem;
+  color: #1538c6;
+  font-style: italic;
+}
+.tagline {
+  font-style: italic;
+  margin-top: -1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.member {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #b2ebf2;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #2173d7;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social a {
+  margin: 0.5rem;
+  display: inline-block;
+  color: #3253d5;
+  text-decoration: none;
+}
+
+footer {
+  background: #2e4fbc;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
